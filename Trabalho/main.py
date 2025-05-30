@@ -20,7 +20,7 @@ conn = mysql.connector.connect(
     host="mysql-27cf8055-otaviosdlopes-2a4d.i.aivencloud.com",
     port=20598,
     user="avnadmin",
-    password="AVNS_NSxRHj-dNDoIaKEyhgE",
+    password="...",
     database="jogo_milhao"
 )
 cursor = conn.cursor()
