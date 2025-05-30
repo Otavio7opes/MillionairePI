@@ -1,0 +1,12 @@
+
+CREATE DATABASE IF NOT EXISTS quiz_game;
+
+USE jogo_milhao;
+
+CREATE TABLE IF NOT EXISTS students (
+    email VARCHAR(255) PRIMARY KEY,
+    password VARCHAR(255),
+    score INT,
+    difficulty VARCHAR(50),
+    topic VARCHAR(50)
+);
